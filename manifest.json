@@ -1,0 +1,21 @@
+{
+  "name": "Netherlands Trip App",
+  "short_name": "NL Trip",
+  "start_url": "/netherlands1218/", 
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#61dafb",
+  "description": "A travel app for the Netherlands trip.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
