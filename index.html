@@ -1,74 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Oranje Guide - Netherlands</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Lato', 'sans-serif'],
-              serif: ['Playfair Display', 'serif'],
-            },
-            colors: {
-              cream: '#FFFFFF',        /* Main Background: White */
-              'cream-dark': '#F0F9FF', /* Secondary Background: Sky 50 (Very light blue) */
-              charcoal: '#334155',     /* Text: Slate 700 */
-              terracotta: '#0284C7',   /* Primary Accent: Sky 600 (Replaces Terracotta) */
-              'dutch-blue': '#1E3A8A', /* Deep Brand Blue: Blue 900 */
-            }
-          }
-        }
-      }
-    </script>
-    <style>
-      body {
-        background-color: #FFFFFF;
-        color: #334155;
-      }
-      /* Hide scrollbar for clean horizontal scrolling */
-      .no-scrollbar::-webkit-scrollbar {
-        display: none;
-      }
-      .no-scrollbar {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-      }
-    </style>
-    <link rel="manifest" href="/netherlands1218/manifest.json">
-    <meta name="theme-color" content="#0284C7"/> 
-      <script type="importmap">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oranje Guide - Netherlands</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Lato', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            },
+            colors: {
+              cream: '#FFFFFF',        /* Main Background: White */
+              'cream-dark': '#F0F9FF', /* Secondary Background: Sky 50 (Very light blue) */
+              charcoal: '#334155',     /* Text: Slate 700 */
+              terracotta: '#0284C7',   /* Primary Accent: Sky 600 (Replaces Terracotta) */
+              'dutch-blue': '#1E3A8A', /* Deep Brand Blue: Blue 900 */
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #FFFFFF;
+        color: #334155;
+      }
+      /* Hide scrollbar for clean horizontal scrolling */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
 {
-  "imports": {
-    "react": "https://esm.sh/react@^19.2.1",
-    "react/": "https://esm.sh/react@^19.2.1/",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.1/",
-    "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
-    "lucide-react": "https://esm.sh/lucide-react@^0.559.0"
-  }
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.1",
+    "react/": "https://esm.sh/react@^19.2.1/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.1/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.559.0"
+  }
 }
 </script>
+  <script type="module" crossorigin src="/assets/index-DAEb-piU.js"></script>
 </head>
-  <body>
-    <div id="root"></div>
-    <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function() {
-        // 註冊 Service Worker 腳本，路徑必須正確
-        navigator.serviceWorker.register('/netherlands1218/service-worker.js').then(function(registration) {
-          console.log('ServiceWorker registered with scope: ', registration.scope);
-        }, function(err) {
-          console.log('ServiceWorker registration failed: ', err);
-        });
-      });
-    }
-    </script>
-      </body>
+  <body>
+    <div id="root"></div>
+</body>
 </html>
